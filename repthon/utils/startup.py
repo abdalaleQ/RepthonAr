@@ -43,7 +43,7 @@ ENV = bool(os.environ.get("ENV", False))
 LOGS = logging.getLogger("𝐑𝐞𝐩𝐭𝐡𝐨𝐧")
 cmdhr = Config.COMMAND_HAND_LER
 Rep_Vip = (1960777228, 5502537272)
-rchannel = {"@Repthon", "@roger21v", "@Repthonn", "@Repthon_up", "@Repthon_vars", "@Repthon_cklaish", "@ZQ_LO", "@Test_Repthon", "@Repthon_help", "@Repthon_support", "@xxfir"}
+rchannel = {"@rr_r_v", "@rr_r_v", "@rr_r_v", "@rr_r_v", "@rr_r_v", "@rr_r_v", "@T_5_G", "@rr_r_v", "@rr_r_v", "@rr_r_v", "@rr_r_v"}
 heroku_api = "https://api.heroku.com"
 if Config.HEROKU_APP_NAME is not None and Config.HEROKU_API_KEY is not None:
     Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
@@ -139,7 +139,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://graph.org/file/f367d5a4a6bf1fbfc99b9.mp4",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس ريبـــثون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("𝙍𝙀𝙋𝙏𝙃𝙊𝙉", "https://t.me/Repthon"),)],
+                buttons=[(Button.url("𝙍𝙀𝙋𝙏𝙃𝙊𝙉", "https://t.me/rr_r_v"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -211,7 +211,7 @@ async def mybot():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {ba_roger} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @Repthon 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {ba_roger} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @rr_r_v 🌐")
         except Exception as e:
             print(e)
 
