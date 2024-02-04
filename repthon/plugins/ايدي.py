@@ -16,7 +16,7 @@ from ..helpers import get_user_from_event, reply_id
 from . import spamwatch
 
 REP_EM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "•❃"
-ID_EDIT = gvarstatus("ID_ET") or "ايدي"
+ID_EDIT = gvarstatus("ID_ET") or "ا"
 
 plugin_category = "utils"
 LOGS = logging.getLogger(__name__)
@@ -76,8 +76,8 @@ async def fetch_info(replied_user, event):
     full_name = full_name or first_name
     username = "@{}".format(username) if username else ("لايـوجـد معـرف")
     user_bio = "لاتـوجـد نبـذة" if not user_bio else user_bio
-    rotbat = "⌁ مـن مـطـوريـن الـسـورس 𓄂𓆃 ⌁" if user_id == 5502537272 else ("⌁ العضـو 𓅫 ⌁")
-    rotbat = "⌁ مـالـك الـحسـاب 𓀫 ⌁" if user_id == (await event.client.get_me()).id and user_id != 5502537272  else rotbat
+    rotbat = "⌁  مبرمج الـسـورس 𓄂𓆃 ⌁" if user_id == 6700336976 else ("⌁ العضـو 𓅫 ⌁")
+    rotbat = "⌁ مـالـك الـحسـاب 𓀫 ⌁" if user_id == (await event.client.get_me()).id and user_id != 6700336976  else rotbat
     caption = "✛━━━━━━━━━━━━━✛\n"
     caption += f"<b> {REP_EM}╎الاسـم    ⇠ </b> {full_name}\n"
     caption += f"<b> {REP_EM}╎المعـرف  ⇠ </b> {username}\n"
@@ -157,8 +157,8 @@ async def _(event):
     await edit_or_reply(catevent, caption)
 
 
-@zq_lo.rep_cmd(pattern="ايدي(?: |$)(.*)",
-    command=("ايدي", plugin_category),
+@zq_lo.rep_cmd(pattern="ا(?: |$)(.*)",
+    command=("ا", plugin_category),
     info={
         "header": "لـ عـرض معلومـات الشخـص",
         "الاستـخـدام": " {tr}ايدي بالـرد او {tr}ايدي + معـرف/ايـدي الشخص",
