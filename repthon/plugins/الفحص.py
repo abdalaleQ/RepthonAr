@@ -92,7 +92,7 @@ rep_temp = """{ALIVE_TEXT}
 **{R_EMOJI} وقت التشغيل :** `{uptime}`
 **{R_EMOJI} تاريـخ التنصيب :** `{repda}`
 **{R_EMOJI} المسـتخـدم:** {mention}
-**{R_EMOJI} قنـاة السـورس :** [اضغـط هنـا](https://t.me/Repthon)"""
+**{R_EMOJI} قنـاة السـورس :** [اضغـط هنـا](https://t.me/VVV5P)"""
 
 
 @zq_lo.rep_cmd(
