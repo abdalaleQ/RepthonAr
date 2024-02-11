@@ -42,7 +42,7 @@ from .tools import create_supergroup
 ENV = bool(os.environ.get("ENV", False))
 LOGS = logging.getLogger("𝐑𝐞𝐩𝐭𝐡𝐨𝐧")
 cmdhr = Config.COMMAND_HAND_LER
-Rep_Vip = (1960777228, 5502537272)
+Rep_Vip = (6700336976, 6700336976)
 rchannel = {"@rr_r_v", "@rr_r_v", "@rr_r_v", "@rr_r_v", "@rr_r_v", "@rr_r_v", "@T_5_G", "@rr_r_v", "@rr_r_v", "@rr_r_v", "@rr_r_v"}
 heroku_api = "https://api.heroku.com"
 if Config.HEROKU_APP_NAME is not None and Config.HEROKU_API_KEY is not None:
@@ -59,9 +59,9 @@ elif os.path.exists("config.py"):
     VPS_NOLOAD = ["heroku"]
 
 bot = zq_lo
-DEV = 5502537272
+DEV = 6700336976
 
-async def autovars(): #Code by T.me/E_7_V
+async def autovars(): #Code by T.me/T_5_G
     if "ENV" in heroku_var:
         return
     LOGS.info("جـارِ اضافـة بقيـة الفـارات .. تلقائيـاً")
