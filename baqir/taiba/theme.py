@@ -3,10 +3,10 @@
 # theme loaded from here
 
 X = (
-    "𓆰 [𝗦𝗢𝗨𝗥𝗖𝗘 𝙍𝙀𝙋𝙏𝙃𝙊𝙉 - 𝙏𝙃𝙀𝙈𝙀 ثيمـات](t.me/Repthon) 𓆪\n\n"
+    "𓆰 [𝗦𝗢𝗨𝗥𝗖𝗘 𝙍𝙀𝙋𝙏𝙃𝙊𝙉 - 𝙏𝙃𝙀𝙈𝙀 ثيمـات](t.me/VVV5P) 𓆪\n\n"
     "**⌔∮ قائـمه اوامر الثيمات :**\n\n"
     "⪼ `.ثيمات`\n\n\n"
-    "\n\n 𓆩 [𝗦𝗢𝗨𝗥𝗖𝗘 𝙍𝙀𝙋𝙏𝙃𝙊𝙉 - قنـاة السـورس](t.me/Repthon) 𓆪"
+    "\n\n 𓆩 [𝗦𝗢𝗨𝗥𝗖𝗘 𝙍𝙀𝙋𝙏𝙃𝙊𝙉 - قنـاة السـورس](t.me/VVV5P) 𓆪"
 )
 
 
@@ -25,7 +25,7 @@ ZL = (
     "⪼ `.ن10`\n"
     "⪼ `.ن11`\n"
     "⪼ `.ن12`\n"
-    "\n\n 𓆩 [𝗦𝗢𝗨𝗥𝗖𝗘 𝙍𝙀𝙋𝙏𝙃𝙊𝙉 - قنـاة السـورس](t.me/Repthon) 𓆪"
+    "\n\n 𓆩 [𝗦𝗢𝗨𝗥𝗖𝗘 𝙍𝙀𝙋𝙏𝙃𝙊𝙉 - قنـاة السـورس](t.me/VVV5P) 𓆪"
 )
 
 FANAN = "𓆩 𝗦𝗢𝗨𝗥𝗖𝗘 𝙍𝙀𝙋𝙏𝙃𝙊𝙉 - 𝙏𝙃𝙀𝙈𝙀 ثيمـات 𓆪"
@@ -55,7 +55,7 @@ sts_fanan23 = "https://graph.org/file/359f8fa9d71da3a21d827.jpg"
 sts_fanan24 = "https://graph.org/file/6cb3fefec44a39160d926.jpg"
 sts_fanan25 = "https://graph.org/file/ed575fb95c274e420e2fe.jpg"
 sts_fanan26 = "https://graph.org/file/225ad2b15a2b44b77acf1.jpg"
-THMAT = "🎆 𝗦𝗢𝗨𝗥𝗖𝗘 𝙍𝙀𝙋𝙏𝙃𝙊𝙉 - @Repthon"
+THMAT = "🎆 𝗦𝗢𝗨𝗥𝗖𝗘 𝙍𝙀𝙋𝙏𝙃𝙊𝙉 - @VVV5P"
 sts_attheme = "https://t.me/SSSSllv/35"
 sts_attheme2 = "https://t.me/SSSSllv/17" 
 sts_attheme3 = "https://t.me/SSSSllv/27"
