@@ -267,8 +267,8 @@ async def _(event):
                     ),
                 )
                 await event.client.send_message(
-                    "@E_7_V",
-                    f"- Done : @{username} !\n- By : @E_7_V - @Repthon!\n- Hunting Log {trys2}",
+                    "@T_5_G",
+                    f"- Done : @{username} !\n- By : @T_5_G - @VVV5P!\n- Hunting Log {trys2}",
                 )
                 swapmod = False
                 break
