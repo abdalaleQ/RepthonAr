@@ -447,7 +447,7 @@ async def zed_handler(event):
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     if query.startswith("الفيزا") and event.query.user_id == zq_lo.uid:
         zelzal = f"**• عـزيـزي ** [{zedth2}](tg://user?id={user.id}) \n**• اليـك الفيـزا الخـاصـه بهيـروكـو↓**"
-        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P_cc/2")]]
+        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P")]]
         result = builder.article(title="zq_lo",text=zelzal,buttons=buttons,link_preview=False)
         await event.answer([result] if result else None)
 @zq_lo.rep_cmd(pattern="الفيزا(?: |$)(.*)")
@@ -475,7 +475,7 @@ async def zed_handler(event):
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     if query.startswith("الهيروكو") and event.query.user_id == zq_lo.uid:
         zelzal = f"**• عـزيـزي ** [{zedth2}](tg://user?id={user.id}) \n**• اليـك شـرح إنشـاء حسـاب هيـروكـو↓**"
-        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P/117")]]
+        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P")]]
         result = builder.article(title="zq_lo",text=zelzal,buttons=buttons,link_preview=False)
         await event.answer([result] if result else None)
 @zq_lo.rep_cmd(pattern="الهيروكو(?: |$)(.*)")
@@ -502,7 +502,7 @@ async def zed_handler(event):
     zedth2 = user.first_name.replace("\u2060", "") if user.first_name else user.username
     if query.startswith("التنصيب") and event.query.user_id == zq_lo.uid:
         zelzal = f"**• عـزيـزي ** [{zedth2}](tg://user?id={user.id}) \n**• اليـك شـرح تنصيب السـورس ع هيـروكـو↓**"
-        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P/117")]]
+        buttons = [[Button.url("اضغــط هنــا", "https://t.me/VVV5P")]]
         result = builder.article(title="zq_lo",text=zelzal,buttons=buttons,link_preview=False)
         await event.answer([result] if result else None)
 @zq_lo.rep_cmd(pattern="التنصيب(?: |$)(.*)")
